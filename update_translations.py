@@ -1,8 +1,8 @@
 import glob
-import json
 import os
-import polib
 import subprocess
+from pathlib import Path
+
 
 def generate_pot():
 	files = glob.glob("lib/*.php") + glob.glob("pages/*.php") + glob.glob("templates/*.twig") + glob.glob("templates/components/*.twig")
@@ -31,25 +31,16 @@ def update_translations():
 		# subprocess.run(["msgattrib", "--no-obsolete", "-o", lang_file, lang_file])
 
 
-def po_to_json():
-	po_files = glob.glob("lang/cirrusboard.*.po")
+def generate_git_hash():
+	commit_hash = subprocess.check_output(["git", "rev-parse", "HEAD"]).decode("utf-8").strip()
 
-	for po_file in po_files:
-		json_file = f"lang/cirrusboard.{os.path.splitext(po_file)[0].split('.')[-1]}.json"
-
-		translations = {entry.msgid: entry.msgstr for entry in polib.pofile(po_file)}
-
-		with open(json_file, 'w', encoding='utf-8') as f:
-			json.dump(translations, f, ensure_ascii=False, indent=4)
-
-		print(f"Converted {po_file} to {json_file}")
-
-
-def main():
-	generate_pot()
-	update_translations()
-	po_to_json()
+	with open("lang/commit_hash.txt", "w") as file:
+		file.write(commit_hash)
 
 
 if __name__ == "__main__":
-	main()
+	os.chdir(str(Path(__file__).parent))
+	os.chdir("..")
+	generate_pot()
+	update_translations()
+	generate_git_hash()
