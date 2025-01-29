@@ -1,0 +1,800 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the cirrusboard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cirrusboard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-16 22:54+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d seconds"
+msgstr ""
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d second"
+msgstr ""
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d minutes"
+msgstr ""
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d minute"
+msgstr ""
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d hours"
+msgstr ""
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d hour"
+msgstr ""
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d days"
+msgstr ""
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d day"
+msgstr ""
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d months"
+msgstr ""
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d month"
+msgstr ""
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d years"
+msgstr ""
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d year"
+msgstr ""
+
+#: lib/relativetime.php
+msgid "just now"
+msgstr ""
+
+#: lib/relativetime.php
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: lib/relativetime.php
+#, php-format
+msgid "%s left"
+msgstr ""
+
+#: lib/layout.php
+msgid "You do not have access to this page or action."
+msgstr ""
+
+#: lib/layout.php
+msgid ""
+"The requested page was not found. The link may be broken, the page may have "
+"been deleted, or you may not have access to it."
+msgstr ""
+
+#: lib/layout.php
+msgid "(post in restricted forum)"
+msgstr ""
+
+#: lib/perm.php
+msgid "Banned"
+msgstr ""
+
+#: lib/perm.php
+msgid "Member"
+msgstr ""
+
+#: lib/perm.php
+msgid "Moderator"
+msgstr ""
+
+#: lib/perm.php
+msgid "Administrator"
+msgstr ""
+
+#: lib/perm.php
+msgid "Root"
+msgstr ""
+
+#: lib/perm.php
+msgid "This page requires login."
+msgstr ""
+
+#: lib/perm.php templates/login.twig templates/_layout.twig
+msgid "Log in"
+msgstr ""
+
+#: pages/editprofile.php
+msgid "Avatar: Invalid file type."
+msgstr ""
+
+#: pages/editprofile.php
+msgid "Avatar: The image is too big. Please resize it to be under 180x180."
+msgstr ""
+
+#: pages/editprofile.php
+msgid "Avatar: The image filesize is too big."
+msgstr ""
+
+#: pages/editprofile.php
+#, php-format
+msgid "Password: Password is too short (needs to be at least %d characters)."
+msgstr ""
+
+#: pages/editprofile.php
+msgid "Password: The new passwords don't match."
+msgstr ""
+
+#: pages/editprofile.php
+msgid "You do not have the permissions to assign this rank."
+msgstr ""
+
+#: pages/profile.php
+msgid "General information"
+msgstr ""
+
+#: pages/profile.php templates/memberlist.twig
+msgid "Name"
+msgstr ""
+
+#: pages/profile.php
+msgid "Rank"
+msgstr ""
+
+#: pages/profile.php templates/forum.twig templates/search.twig
+msgid "Title"
+msgstr ""
+
+#: pages/profile.php
+msgid "Total posts"
+msgstr ""
+
+#: pages/profile.php
+msgid "Total threads"
+msgstr ""
+
+#: pages/profile.php templates/memberlist.twig templates/activeusers.twig
+msgid "Registered on"
+msgstr ""
+
+#: pages/profile.php templates/forum.twig templates/index.twig
+msgid "Last post"
+msgstr ""
+
+#: pages/profile.php
+msgid "Last view"
+msgstr ""
+
+#: pages/profile.php templates/editprofile.twig
+msgid "User information"
+msgstr ""
+
+#: pages/profile.php
+msgid "Bio"
+msgstr ""
+
+#: pages/profile.php templates/editprofile.twig
+msgid "Location"
+msgstr ""
+
+#: pages/profile.php
+msgid "Email"
+msgstr ""
+
+#: pages/profile.php
+msgid "Birthday"
+msgstr ""
+
+#: pages/profile.php
+msgid "Sample post"
+msgstr ""
+
+#: pages/profile.php
+msgid "View threads"
+msgstr ""
+
+#: pages/profile.php
+msgid "Show posts"
+msgstr ""
+
+#: pages/profile.php
+msgid "Edit user"
+msgstr ""
+
+#: pages/editthread.php
+msgid "This thread is closed."
+msgstr ""
+
+#: pages/editpost.php
+msgid "You are banned and cannot edit posts."
+msgstr ""
+
+#: pages/editpost.php
+msgid "You can't edit a post in closed threads."
+msgstr ""
+
+#: pages/editpost.php pages/newreply.php pages/newthread.php
+msgid "Submit"
+msgstr ""
+
+#: pages/editpost.php
+msgid "No changes detected."
+msgstr ""
+
+#: pages/editpost.php
+msgid "You can't blank out your post!"
+msgstr ""
+
+#: pages/editpost.php pages/newreply.php pages/newthread.php
+msgid "Preview"
+msgstr ""
+
+#: pages/editpost.php pages/newreply.php pages/newthread.php
+msgid "Post preview"
+msgstr ""
+
+#: pages/register.php
+msgid "Blank username."
+msgstr ""
+
+#: pages/register.php
+#, php-format
+msgid "Password is too short (needs to be at least %d characters)."
+msgstr ""
+
+#: pages/register.php
+msgid "The passwords don't match."
+msgstr ""
+
+#: pages/register.php
+msgid "Username has already been taken."
+msgstr ""
+
+#: pages/register.php
+msgid ""
+"Username contains invalid characters (Only alphanumeric and underscore "
+"allowed)."
+msgstr ""
+
+#: pages/register.php
+msgid "Creating multiple accounts (alts) aren't allowed."
+msgstr ""
+
+#: pages/newreply.php
+msgid "You can't post in closed threads."
+msgstr ""
+
+#: pages/newreply.php
+msgid "You can't double post until it's been at least 12 hours!"
+msgstr ""
+
+#: pages/newreply.php
+msgid "Your post is empty. Enter a message and try again."
+msgstr ""
+
+#: pages/newthread.php
+msgid "You need to enter a longer title."
+msgstr ""
+
+#: pages/newthread.php
+msgid "You need to enter a message to your thread."
+msgstr ""
+
+#: pages/newthread.php
+msgid "Please wait at least 30 seconds before starting a new thread."
+msgstr ""
+
+#: pages/login.php
+msgid "Login"
+msgstr ""
+
+#: pages/login.php
+msgid "Invalid credentials."
+msgstr ""
+
+#: templates/newthread.twig templates/forum.twig
+msgid "New thread"
+msgstr ""
+
+#: templates/newthread.twig
+msgid "The following errors occurred when trying to make a new thread:"
+msgstr ""
+
+#: templates/thread.twig templates/editthread.twig
+msgid "Edit thread"
+msgstr ""
+
+#: templates/thread.twig templates/newreply.twig
+msgid "New reply"
+msgstr ""
+
+#: templates/thread.twig
+msgid "Thread locked"
+msgstr ""
+
+#: templates/thread.twig templates/memberlist.twig templates/index.twig
+#: templates/activeusers.twig
+msgid "Posts"
+msgstr ""
+
+#: templates/thread.twig
+msgid "Latest posts (by post)"
+msgstr ""
+
+#: templates/thread.twig templates/forum.twig templates/_layout.twig
+msgid "Latest posts"
+msgstr ""
+
+#: templates/thread.twig templates/forum.twig
+msgid "By thread"
+msgstr ""
+
+#: templates/thread.twig templates/forum.twig
+msgid "By post"
+msgstr ""
+
+#: templates/thread.twig
+msgid "No posts found."
+msgstr ""
+
+#: templates/thread.twig
+msgid "Quick Reply"
+msgstr ""
+
+#: templates/memberlist.twig templates/_layout.twig
+msgid "Member list"
+msgstr ""
+
+#: templates/memberlist.twig
+msgid "Picture"
+msgstr ""
+
+#: templates/forum.twig
+msgid "Mark forum read"
+msgstr ""
+
+#: templates/forum.twig templates/index.twig
+msgid "Threads"
+msgstr ""
+
+#: templates/forum.twig
+msgid "Latest posts (by thread)"
+msgstr ""
+
+#: templates/forum.twig
+msgid "Author"
+msgstr ""
+
+#: templates/forum.twig
+msgid "Replies"
+msgstr ""
+
+#: templates/forum.twig
+msgid "Views"
+msgstr ""
+
+#: templates/forum.twig templates/index.twig
+#, c-format
+msgid "by %s"
+msgstr ""
+
+#: templates/forum.twig
+msgid "No threads found."
+msgstr ""
+
+#: templates/editprofile.twig templates/_layout.twig
+msgid "Edit profile"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "The following errors occurred when trying to edit your profile:"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Login information"
+msgstr ""
+
+#: templates/editprofile.twig templates/register.twig templates/login.twig
+msgid "Username:"
+msgstr ""
+
+#: templates/editprofile.twig templates/register.twig templates/login.twig
+msgid "Password:"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "New password"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Repeat password"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid ""
+"(Changing your password will also change your token, logging you out of any "
+"other sessions)"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Appearance"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Rank:"
+msgstr ""
+
+#: templates/editprofile.twig templates/editthread.twig
+#: templates/components/postform.twig
+msgid "Title:"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Avatar:"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "or"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Erase existing avatar"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Must be PNG, JPG or GIF, within 100kB and 180x180."
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Location:"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Birthday:"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Day"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Month"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Year"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Bio:"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Email address:"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Show email on profile page"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Post layout"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Header:"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Signature:"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Show signature separator"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Signature"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Options"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Theme:"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Timezone:"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Posts per page:"
+msgstr ""
+
+#: templates/editprofile.twig
+msgid "Threads per page:"
+msgstr ""
+
+#: templates/register.twig templates/_layout.twig
+msgid "Register"
+msgstr ""
+
+#: templates/register.twig
+msgid "The following errors occurred when trying to register:"
+msgstr ""
+
+#: templates/register.twig
+#, c-format
+msgid "Register an account at %s in order to post and partake in discussions!"
+msgstr ""
+
+#: templates/register.twig
+msgid "Password confirmation:"
+msgstr ""
+
+#: templates/register.twig
+#, c-format
+msgid ""
+"Before registering %s please read the FAQ %s as it contains the privacy "
+"policy and rules of this board."
+msgstr ""
+
+#: templates/index.twig templates/_layout.twig
+msgid "Home"
+msgstr ""
+
+#: templates/index.twig
+msgid "You have successfully registered and are now logged in."
+msgstr ""
+
+#: templates/index.twig
+msgid "Mark all forums read"
+msgstr ""
+
+#: templates/index.twig
+msgid "Latest Announcement"
+msgstr ""
+
+#: templates/index.twig
+#, c-format
+msgid "on %s"
+msgstr ""
+
+#: templates/index.twig
+msgid "All announcements"
+msgstr ""
+
+#: templates/index.twig
+msgid "Forum"
+msgstr ""
+
+#: templates/index.twig
+msgid "(Private)"
+msgstr ""
+
+#: templates/index.twig
+msgid "None"
+msgstr ""
+
+#: templates/index.twig
+msgid "Online users (over the past 15 minutes)"
+msgstr ""
+
+#: templates/index.twig
+#, c-format
+msgid "%d user online:"
+msgstr ""
+
+#: templates/index.twig
+#, c-format
+msgid "%d users online:"
+msgstr ""
+
+#: templates/index.twig
+#, c-format
+msgid "In addition there are %d guests online."
+msgstr ""
+
+#: templates/index.twig
+#, c-format
+msgid "In addition there is %d guest online."
+msgstr ""
+
+#: templates/index.twig
+msgid "Statistics"
+msgstr ""
+
+#: templates/index.twig
+msgid "Total posts:"
+msgstr ""
+
+#: templates/index.twig
+msgid "Total threads:"
+msgstr ""
+
+#: templates/index.twig
+msgid "Total members:"
+msgstr ""
+
+#: templates/index.twig
+msgid "Newest:"
+msgstr ""
+
+#: templates/editpost.twig
+msgid "Edit post"
+msgstr ""
+
+#: templates/editpost.twig templates/newreply.twig
+msgid "The following errors occurred when trying to make a reply:"
+msgstr ""
+
+#: templates/login.twig
+msgid "Error:"
+msgstr ""
+
+#: templates/login.twig
+#, c-format
+msgid "Login to your existing %s account."
+msgstr ""
+
+#: templates/_error.twig
+#, c-format
+msgid "Error - %s"
+msgstr ""
+
+#: templates/search.twig templates/_layout.twig
+msgid "Search"
+msgstr ""
+
+#: templates/search.twig
+msgid "Search for:"
+msgstr ""
+
+#: templates/search.twig
+msgid "in"
+msgstr ""
+
+#: templates/search.twig
+msgid "thread title"
+msgstr ""
+
+#: templates/search.twig
+msgid "post text"
+msgstr ""
+
+#: templates/search.twig
+msgid "No results found."
+msgstr ""
+
+#: templates/search.twig
+msgid "Results:"
+msgstr ""
+
+#: templates/search.twig
+msgid "Started by"
+msgstr ""
+
+#: templates/search.twig
+msgid "Date"
+msgstr ""
+
+#: templates/_layout.twig
+msgid "FAQ"
+msgstr ""
+
+#: templates/_layout.twig templates/activeusers.twig
+msgid "Active users"
+msgstr ""
+
+#: templates/_layout.twig
+msgid "Admin"
+msgstr ""
+
+#: templates/_layout.twig
+msgid "Log out"
+msgstr ""
+
+#: templates/activeusers.twig
+msgid "Username"
+msgstr ""
+
+#: templates/activeusers.twig
+msgid "Total"
+msgstr ""
+
+#: templates/activeusers.twig
+msgid "There are no active users in the given timespan."
+msgstr ""
+
+#: templates/editthread.twig
+msgid "Thread title"
+msgstr ""
+
+#: templates/editthread.twig
+msgid "Move to:"
+msgstr ""
+
+#: templates/editthread.twig
+msgid "Thread options:"
+msgstr ""
+
+#: templates/editthread.twig
+msgid "Lock"
+msgstr ""
+
+#: templates/editthread.twig
+msgid "Sticky"
+msgstr ""
+
+#: templates/components/threadpost_deleted.twig
+msgid "(post deleted)"
+msgstr ""
+
+#: templates/components/threadpost_deleted.twig
+msgid "Undelete"
+msgstr ""
+
+#: templates/components/threadpost.twig
+#, c-format
+msgid "Posted on %s"
+msgstr ""
+
+#: templates/components/threadpost.twig
+#, c-format
+msgid "(edited %s)"
+msgstr ""
+
+#: templates/components/threadpost.twig
+msgid "Link"
+msgstr ""
+
+#: templates/components/threadpost.twig
+msgid "Quote"
+msgstr ""
+
+#: templates/components/threadpost.twig
+msgid "Edit"
+msgstr ""
+
+#: templates/components/threadpost.twig
+msgid "Delete"
+msgstr ""
+
+#: templates/components/threadpost.twig
+msgid "Posts:"
+msgstr ""
+
+#: templates/components/threadpost.twig
+msgid "Joined:"
+msgstr ""

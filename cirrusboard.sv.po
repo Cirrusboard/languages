@@ -1,0 +1,812 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cirrusboard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-16 22:54+0100\n"
+"PO-Revision-Date: 2024-11-16 20:48+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d seconds"
+msgstr "%%d sekunder"
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d second"
+msgstr "%%d sekund"
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d minutes"
+msgstr "%%d minuter"
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d minute"
+msgstr "%%d minut"
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d hours"
+msgstr "%%d timmar"
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d hour"
+msgstr "%%d timme"
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d days"
+msgstr "%%d dagar"
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d day"
+msgstr "%%d dag"
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d months"
+msgstr "%%d månader"
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d month"
+msgstr "%%d månad"
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d years"
+msgstr "%%d år"
+
+#: lib/relativetime.php
+#, php-format
+msgid "%%d year"
+msgstr "%%d år"
+
+#: lib/relativetime.php
+msgid "just now"
+msgstr "just nu"
+
+#: lib/relativetime.php
+#, php-format
+msgid "%s ago"
+msgstr "%s sedan"
+
+#: lib/relativetime.php
+#, php-format
+msgid "%s left"
+msgstr "%s kvar"
+
+#: lib/layout.php
+msgid "You do not have access to this page or action."
+msgstr "Du har inte åtkomst till den här sidan eller åtgärden."
+
+#: lib/layout.php
+msgid ""
+"The requested page was not found. The link may be broken, the page may have "
+"been deleted, or you may not have access to it."
+msgstr ""
+"Den förfrågade sidan kunde hittas. Länken kan vara trasig, sidan kan ha "
+"tagits bort, eller så har du inte åtkomst till den."
+
+#: lib/layout.php
+msgid "(post in restricted forum)"
+msgstr "(inlägg i begränsat forum)"
+
+#: lib/perm.php
+msgid "Banned"
+msgstr "Bannad"
+
+#: lib/perm.php
+msgid "Member"
+msgstr "Medlem"
+
+#: lib/perm.php
+msgid "Moderator"
+msgstr "Moderator"
+
+#: lib/perm.php
+msgid "Administrator"
+msgstr "Administratör"
+
+#: lib/perm.php
+msgid "Root"
+msgstr "Rotadministratör"
+
+#: lib/perm.php
+msgid "This page requires login."
+msgstr "Denna sida kräver inloggning."
+
+#: lib/perm.php templates/login.twig templates/_layout.twig
+msgid "Log in"
+msgstr "Logga in"
+
+#: pages/editprofile.php
+msgid "Avatar: Invalid file type."
+msgstr "Avatar: Ogiltig filtyp."
+
+#: pages/editprofile.php
+msgid "Avatar: The image is too big. Please resize it to be under 180x180."
+msgstr ""
+"Avatar: Bilden är för stor. Vänligen skala ner den till att bli under "
+"180x180."
+
+#: pages/editprofile.php
+msgid "Avatar: The image filesize is too big."
+msgstr "Avatar: Filstorleken för bilden är för stor."
+
+#: pages/editprofile.php
+#, php-format
+msgid "Password: Password is too short (needs to be at least %d characters)."
+msgstr "Lösenord: Lösenordet är för kort (behöver vara åtminstonde %d tecken)."
+
+#: pages/editprofile.php
+msgid "Password: The new passwords don't match."
+msgstr "Lösenord: De nya lösenorden stämmer inte överrens."
+
+#: pages/editprofile.php
+msgid "You do not have the permissions to assign this rank."
+msgstr "Du har inte behörighet att ge den här rangen."
+
+#: pages/profile.php
+msgid "General information"
+msgstr "Generell information"
+
+#: pages/profile.php templates/memberlist.twig
+msgid "Name"
+msgstr "Namn"
+
+#: pages/profile.php
+msgid "Rank"
+msgstr "Rang"
+
+#: pages/profile.php templates/forum.twig templates/search.twig
+msgid "Title"
+msgstr "Titel"
+
+#: pages/profile.php
+msgid "Total posts"
+msgstr "Totala inlägg"
+
+#: pages/profile.php
+msgid "Total threads"
+msgstr "Totala trådar"
+
+#: pages/profile.php templates/memberlist.twig templates/activeusers.twig
+msgid "Registered on"
+msgstr "Registreringsdatum"
+
+#: pages/profile.php templates/forum.twig templates/index.twig
+msgid "Last post"
+msgstr "Senaste inlägg"
+
+#: pages/profile.php
+msgid "Last view"
+msgstr "Senaste visning"
+
+#: pages/profile.php templates/editprofile.twig
+msgid "User information"
+msgstr "Användarinformation"
+
+#: pages/profile.php
+msgid "Bio"
+msgstr "Om"
+
+#: pages/profile.php templates/editprofile.twig
+msgid "Location"
+msgstr "Plats"
+
+#: pages/profile.php
+msgid "Email"
+msgstr "Mejl"
+
+#: pages/profile.php
+msgid "Birthday"
+msgstr "Födelsedag"
+
+#: pages/profile.php
+msgid "Sample post"
+msgstr "Exempelinlägg"
+
+#: pages/profile.php
+msgid "View threads"
+msgstr "Visa trådar"
+
+#: pages/profile.php
+msgid "Show posts"
+msgstr "Visa inlägg"
+
+#: pages/profile.php
+msgid "Edit user"
+msgstr "Redigera användare"
+
+#: pages/editthread.php
+msgid "This thread is closed."
+msgstr "Den här tråden är låst."
+
+#: pages/editpost.php
+msgid "You are banned and cannot edit posts."
+msgstr "Du är bannad och kan inte redigera inlägg."
+
+#: pages/editpost.php
+msgid "You can't edit a post in closed threads."
+msgstr "Du kan inte redigera inlägg i låsta trådar."
+
+#: pages/editpost.php pages/newreply.php pages/newthread.php
+msgid "Submit"
+msgstr "Skicka"
+
+#: pages/editpost.php
+msgid "No changes detected."
+msgstr "Inga ändringar har gjorts."
+
+#: pages/editpost.php
+msgid "You can't blank out your post!"
+msgstr "Du kan inte tomgöra ditt inlägg!"
+
+#: pages/editpost.php pages/newreply.php pages/newthread.php
+msgid "Preview"
+msgstr "Förhandsvisa"
+
+#: pages/editpost.php pages/newreply.php pages/newthread.php
+msgid "Post preview"
+msgstr "Inläggsförhansvisning"
+
+#: pages/register.php
+msgid "Blank username."
+msgstr "Tomt användarnamn."
+
+#: pages/register.php
+#, php-format
+msgid "Password is too short (needs to be at least %d characters)."
+msgstr "Lösenordet är för kort (behöver vara åtminstonde %d tecken)."
+
+#: pages/register.php
+msgid "The passwords don't match."
+msgstr "Lösenorden stämmer inte överrens."
+
+#: pages/register.php
+msgid "Username has already been taken."
+msgstr "Användarnamnet är redan taget."
+
+#: pages/register.php
+msgid ""
+"Username contains invalid characters (Only alphanumeric and underscore "
+"allowed)."
+msgstr ""
+"Användarnamn innehåller ogiltiga tecken (Endast alfanumeriska och "
+"understreck stöds)."
+
+#: pages/register.php
+msgid "Creating multiple accounts (alts) aren't allowed."
+msgstr ""
+
+#: pages/newreply.php
+msgid "You can't post in closed threads."
+msgstr "Du kan inte göra inlägg i låsta trådar."
+
+#: pages/newreply.php
+msgid "You can't double post until it's been at least 12 hours!"
+msgstr "Du kan inte göra dubbla inlägg förrens det har gått 12 timmar!"
+
+#: pages/newreply.php
+msgid "Your post is empty. Enter a message and try again."
+msgstr "Ditt inlägg är tomt. Skriv ett meddelande och försök igen."
+
+#: pages/newthread.php
+msgid "You need to enter a longer title."
+msgstr "Du behöver skriva en längre titel."
+
+#: pages/newthread.php
+msgid "You need to enter a message to your thread."
+msgstr "Du behöver skriva ett meddelande för din tråd."
+
+#: pages/newthread.php
+msgid "Please wait at least 30 seconds before starting a new thread."
+msgstr "Vänligen vänta åtminstonde 30 sekunder innan du gör en ny tråd."
+
+#: pages/login.php
+msgid "Login"
+msgstr "Logga in"
+
+#: pages/login.php
+msgid "Invalid credentials."
+msgstr "Ogiltiga inloggningsuppgifter."
+
+#: templates/newthread.twig templates/forum.twig
+msgid "New thread"
+msgstr "Ny tråd"
+
+#: templates/newthread.twig
+msgid "The following errors occurred when trying to make a new thread:"
+msgstr "De följande felen inträffade:"
+
+#: templates/thread.twig templates/editthread.twig
+msgid "Edit thread"
+msgstr "Redigera tråd"
+
+#: templates/thread.twig templates/newreply.twig
+msgid "New reply"
+msgstr "Nytt svar"
+
+#: templates/thread.twig
+msgid "Thread locked"
+msgstr "Tråd låst"
+
+#: templates/thread.twig templates/memberlist.twig templates/index.twig
+#: templates/activeusers.twig
+msgid "Posts"
+msgstr "Inlägg"
+
+#: templates/thread.twig
+msgid "Latest posts (by post)"
+msgstr "Senaste inlägg (efter inlägg)"
+
+#: templates/thread.twig templates/forum.twig templates/_layout.twig
+msgid "Latest posts"
+msgstr "Senaste inlägg"
+
+#: templates/thread.twig templates/forum.twig
+msgid "By thread"
+msgstr "Efter tråd"
+
+#: templates/thread.twig templates/forum.twig
+msgid "By post"
+msgstr "Efter inlägg"
+
+#: templates/thread.twig
+msgid "No posts found."
+msgstr "Inga inlägg hittades."
+
+#: templates/thread.twig
+msgid "Quick Reply"
+msgstr "Snabbsvar"
+
+#: templates/memberlist.twig templates/_layout.twig
+msgid "Member list"
+msgstr "Medlemslista"
+
+#: templates/memberlist.twig
+msgid "Picture"
+msgstr "Bild"
+
+#: templates/forum.twig
+msgid "Mark forum read"
+msgstr "Markera forum läst"
+
+#: templates/forum.twig templates/index.twig
+msgid "Threads"
+msgstr "Trådar"
+
+#: templates/forum.twig
+msgid "Latest posts (by thread)"
+msgstr "Senaste inlägg (efter tråd)"
+
+#: templates/forum.twig
+msgid "Author"
+msgstr "Trådskapare"
+
+#: templates/forum.twig
+msgid "Replies"
+msgstr "Svar"
+
+#: templates/forum.twig
+msgid "Views"
+msgstr "Visningar"
+
+#: templates/forum.twig templates/index.twig
+#, c-format
+msgid "by %s"
+msgstr "av %s"
+
+#: templates/forum.twig
+msgid "No threads found."
+msgstr "Inga trådar hittades."
+
+#: templates/editprofile.twig templates/_layout.twig
+msgid "Edit profile"
+msgstr "Redigera profil"
+
+#: templates/editprofile.twig
+msgid "The following errors occurred when trying to edit your profile:"
+msgstr "De följande felen inträffade:"
+
+#: templates/editprofile.twig
+msgid "Login information"
+msgstr "Inloggningsinformation"
+
+#: templates/editprofile.twig templates/register.twig templates/login.twig
+msgid "Username:"
+msgstr "Användarnamn:"
+
+#: templates/editprofile.twig templates/register.twig templates/login.twig
+msgid "Password:"
+msgstr "Lösenord:"
+
+#: templates/editprofile.twig
+msgid "New password"
+msgstr "Nytt lösenord"
+
+#: templates/editprofile.twig
+msgid "Repeat password"
+msgstr "Repetera lösenord"
+
+#: templates/editprofile.twig
+msgid ""
+"(Changing your password will also change your token, logging you out of any "
+"other sessions)"
+msgstr ""
+"(Ändring av lösenord ändrar även din token, vilket loggar ut dig från alla "
+"sessioner)"
+
+#: templates/editprofile.twig
+msgid "Appearance"
+msgstr "Utseende"
+
+#: templates/editprofile.twig
+msgid "Rank:"
+msgstr "Rang:"
+
+#: templates/editprofile.twig templates/editthread.twig
+#: templates/components/postform.twig
+msgid "Title:"
+msgstr "Titel:"
+
+#: templates/editprofile.twig
+msgid "Avatar:"
+msgstr "Avatar:"
+
+#: templates/editprofile.twig
+msgid "or"
+msgstr "eller"
+
+#: templates/editprofile.twig
+msgid "Erase existing avatar"
+msgstr "Ta bort existerande avatar"
+
+#: templates/editprofile.twig
+msgid "Must be PNG, JPG or GIF, within 100kB and 180x180."
+msgstr "Måste vara PNG, JPG eller GIF, inom 100kB och 180x180."
+
+#: templates/editprofile.twig
+msgid "Location:"
+msgstr "Plats:"
+
+#: templates/editprofile.twig
+msgid "Birthday:"
+msgstr "Födelsedag:"
+
+#: templates/editprofile.twig
+msgid "Day"
+msgstr "Dag"
+
+#: templates/editprofile.twig
+msgid "Month"
+msgstr "Månad"
+
+#: templates/editprofile.twig
+msgid "Year"
+msgstr "År"
+
+#: templates/editprofile.twig
+msgid "Bio:"
+msgstr "Om:"
+
+#: templates/editprofile.twig
+msgid "Email address:"
+msgstr "Mejladress:"
+
+#: templates/editprofile.twig
+msgid "Show email on profile page"
+msgstr "Visa mejladress på profilsida"
+
+#: templates/editprofile.twig
+msgid "Post layout"
+msgstr "Inläggslayout"
+
+#: templates/editprofile.twig
+msgid "Header:"
+msgstr "Huvud:"
+
+#: templates/editprofile.twig
+msgid "Signature:"
+msgstr "Signatur:"
+
+#: templates/editprofile.twig
+msgid "Show signature separator"
+msgstr "Visa signaturseparator"
+
+#: templates/editprofile.twig
+msgid "Signature"
+msgstr "Signatur"
+
+#: templates/editprofile.twig
+msgid "Options"
+msgstr "Inställningar"
+
+#: templates/editprofile.twig
+msgid "Theme:"
+msgstr "Tema:"
+
+#: templates/editprofile.twig
+msgid "Timezone:"
+msgstr "Tidszon:"
+
+#: templates/editprofile.twig
+msgid "Posts per page:"
+msgstr "Inlägg per sida:"
+
+#: templates/editprofile.twig
+msgid "Threads per page:"
+msgstr "Trådar per sida:"
+
+#: templates/register.twig templates/_layout.twig
+msgid "Register"
+msgstr "Registrera"
+
+#: templates/register.twig
+msgid "The following errors occurred when trying to register:"
+msgstr "De följande felen inträffade:"
+
+#: templates/register.twig
+#, c-format
+msgid "Register an account at %s in order to post and partake in discussions!"
+msgstr ""
+"Registrera ett konto hos %s för att posta inlägg och delta i diskussioner!"
+
+#: templates/register.twig
+msgid "Password confirmation:"
+msgstr "Bekräfta lösenord:"
+
+#: templates/register.twig
+#, c-format
+msgid ""
+"Before registering %s please read the FAQ %s as it contains the privacy "
+"policy and rules of this board."
+msgstr ""
+"Innan registrering %sborde du läsa FAQ:en%s, då den innehåller "
+"integritetspolicy:n och reglerna för forumet."
+
+#: templates/index.twig templates/_layout.twig
+msgid "Home"
+msgstr "Hem"
+
+#: templates/index.twig
+msgid "You have successfully registered and are now logged in."
+msgstr "Du har registrerat dig och är nu inloggad."
+
+#: templates/index.twig
+msgid "Mark all forums read"
+msgstr "Markera alla forum lästa"
+
+#: templates/index.twig
+msgid "Latest Announcement"
+msgstr "Senaste nyhet"
+
+#: templates/index.twig
+#, c-format
+msgid "on %s"
+msgstr "på %s"
+
+#: templates/index.twig
+msgid "All announcements"
+msgstr "Alla nyheter"
+
+#: templates/index.twig
+msgid "Forum"
+msgstr "Forum"
+
+#: templates/index.twig
+msgid "(Private)"
+msgstr "(Privat)"
+
+#: templates/index.twig
+msgid "None"
+msgstr "Inget"
+
+#: templates/index.twig
+msgid "Online users (over the past 15 minutes)"
+msgstr "Användare online (under de senaste 15 minuterna)"
+
+#: templates/index.twig
+#, c-format
+msgid "%d user online:"
+msgstr "%d användare online:"
+
+#: templates/index.twig
+#, c-format
+msgid "%d users online:"
+msgstr "%d användare online:"
+
+#: templates/index.twig
+#, c-format
+msgid "In addition there are %d guests online."
+msgstr "Utöver detta är det %d oinloggade användare."
+
+#: templates/index.twig
+#, c-format
+msgid "In addition there is %d guest online."
+msgstr "Utöver detta är det %d oinloggade användare."
+
+#: templates/index.twig
+msgid "Statistics"
+msgstr "Statistik"
+
+#: templates/index.twig
+msgid "Total posts:"
+msgstr "Totala inlägg:"
+
+#: templates/index.twig
+msgid "Total threads:"
+msgstr "Totala trådar:"
+
+#: templates/index.twig
+msgid "Total members:"
+msgstr "Totala medlemmar:"
+
+#: templates/index.twig
+msgid "Newest:"
+msgstr "Nyaste:"
+
+#: templates/editpost.twig
+msgid "Edit post"
+msgstr "Redigera inlägg"
+
+#: templates/editpost.twig templates/newreply.twig
+msgid "The following errors occurred when trying to make a reply:"
+msgstr "De följande felen inträffade:"
+
+#: templates/login.twig
+msgid "Error:"
+msgstr "Felmeddelande:"
+
+#: templates/login.twig
+#, c-format
+msgid "Login to your existing %s account."
+msgstr "Logga in till ditt existerande %s-konto."
+
+#: templates/_error.twig
+#, c-format
+msgid "Error - %s"
+msgstr "Felmeddelande - %s"
+
+#: templates/search.twig templates/_layout.twig
+msgid "Search"
+msgstr "Sök"
+
+#: templates/search.twig
+msgid "Search for:"
+msgstr "Sök efter:"
+
+#: templates/search.twig
+msgid "in"
+msgstr "i"
+
+#: templates/search.twig
+msgid "thread title"
+msgstr "trådtitel"
+
+#: templates/search.twig
+msgid "post text"
+msgstr "inläggstext"
+
+#: templates/search.twig
+msgid "No results found."
+msgstr "Inga resultat hittades."
+
+#: templates/search.twig
+msgid "Results:"
+msgstr "Resultat:"
+
+#: templates/search.twig
+msgid "Started by"
+msgstr "Startad av"
+
+#: templates/search.twig
+msgid "Date"
+msgstr "Datum"
+
+#: templates/_layout.twig
+msgid "FAQ"
+msgstr "FAQ"
+
+#: templates/_layout.twig templates/activeusers.twig
+msgid "Active users"
+msgstr "Aktiva användare"
+
+#: templates/_layout.twig
+msgid "Admin"
+msgstr "Admin"
+
+#: templates/_layout.twig
+msgid "Log out"
+msgstr "Logga ut"
+
+#: templates/activeusers.twig
+msgid "Username"
+msgstr "Användarnamn"
+
+#: templates/activeusers.twig
+msgid "Total"
+msgstr "Totalt"
+
+#: templates/activeusers.twig
+msgid "There are no active users in the given timespan."
+msgstr "Det finns inga aktiva användare inom det givna tidsspannet."
+
+#: templates/editthread.twig
+msgid "Thread title"
+msgstr "Trådtitel"
+
+#: templates/editthread.twig
+msgid "Move to:"
+msgstr "Flytta till:"
+
+#: templates/editthread.twig
+msgid "Thread options:"
+msgstr "Trådinställningar:"
+
+#: templates/editthread.twig
+msgid "Lock"
+msgstr "Lås"
+
+#: templates/editthread.twig
+msgid "Sticky"
+msgstr "Klistra"
+
+#: templates/components/threadpost_deleted.twig
+msgid "(post deleted)"
+msgstr "(inlägg borttaget)"
+
+#: templates/components/threadpost_deleted.twig
+msgid "Undelete"
+msgstr "Återställ"
+
+#: templates/components/threadpost.twig
+#, c-format
+msgid "Posted on %s"
+msgstr "Skickat den %s"
+
+#: templates/components/threadpost.twig
+#, c-format
+msgid "(edited %s)"
+msgstr "(redigerad %s)"
+
+#: templates/components/threadpost.twig
+msgid "Link"
+msgstr "Länk"
+
+#: templates/components/threadpost.twig
+msgid "Quote"
+msgstr "Citat"
+
+#: templates/components/threadpost.twig
+msgid "Edit"
+msgstr "Redigera"
+
+#: templates/components/threadpost.twig
+msgid "Delete"
+msgstr "Radera"
+
+#: templates/components/threadpost.twig
+msgid "Posts:"
+msgstr "Inlägg:"
+
+#: templates/components/threadpost.twig
+msgid "Joined:"
+msgstr "Reg:"
